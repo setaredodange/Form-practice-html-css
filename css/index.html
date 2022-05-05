@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body dir="rtl">
+    <div id="login">
+        <form method=post>
+            <fieldset>
+                <legend> sign in </legend>
+                <div class="form-group">
+                    <label for="field-username" class="custom-label"> user name </label><br>
+                    <input type="text" name="username" id="field-username" class="custom-input"
+                     placeholder="نام کاربری را با حروف لاتین وارد نمایید">
+                </div>
+    
+                    <div class="form-group">
+                    <label for="field-password" class="custom-label"> password</label><br>
+                    <input type="pasword" name="password" id="field-password" class="custom-input"
+                     maxlength="15" placeholder="رمز را با حروف لاتین وارد نمایید" required>
+                
+                <input type="submit" class="custom-button"  value="ورود" required>
+    
+                    </div >
+                    </fieldset>
+                </form>
+    
+                </div>
+
+
+                <div id="register">
+                    <form method=post>
+                        <fieldset>
+                            <legend> فرم ثبت نام کاربر</legend>
+                            <div class="form-group">
+                                <label for="field-username-register" class="custom-label"> نام کاربری</label><br>
+                                <input type="text" name="username" id="field-username-register" class="custom-input"
+                                 placeholder="نام کاربری را با حروف لاتین وارد نمایید">
+                            </div>
+                
+                             
+
+
+                                 <div class="form-group">
+                                    <label for="field-firstname" class="custom-label">نام</label><br>
+                                    <input type="text" name="firstname" id="field-fistname" class="custom-input"
+                                     maxlength="15" placeholder="مثال  : فردوس" required>
+
+
+                                     <div class="form-group">
+                                        <label for="field-lastname" class="custom-label">نام حانوادگی</label><br>
+                                        <input type="pasword" name="password" id="field-password-register" class="custom-input"
+                                         maxlength="15" placeholder="مثال : فردوسی" required>
+
+
+                                         <div class="form-group">
+                                            <label for="field-birthday" class="custom-label">تاریخ تولد  </label><br>
+                                            <input type="number" name="birthday-day" id="field-birthday" 
+                                            class="custom-input birthday-input" min="1" max="31" placeholder="روز تولد"
+                                               required>
+
+                                               <select name="birthday-month"  class="custom-input birthday-input">
+                                                   <option>فروردین</option>
+                                                   <option>اردیبهشت</option>
+                                                   <option>خرداد</option>
+                                                   <option>تیر</option>
+                                                   <option>مرداد</option>
+                                                   <option>شهریور</option>
+                                                   <option>مهر</option>
+                                                   <option>آبان</option>
+                                                   <option>آذر</option>
+                                                   <option>دی</option>
+                                                   <option>بهمن</option>
+                                                   <option>اسفند</option>
+                                               </select>
+
+                                               <input type="number" name="birthday-year" id="field-birthday" 
+                                            class="custom-input birthday-input" min="1300" max="1400" placeholder="سال تولد"
+                                               required>
+
+                                               <div class="form-group">
+                                                   <label class="custom-label" > جنسیت </label> <br>
+                                                   <label class="custom-radio-option">
+                                                   <input type="radio" name="gender" value="male" class="custom-radio">مرد
+                                                   </label>
+                                                   <label class="custom-radio-option">
+                                                   <input type="radio" name="gender" value="female" class="custom-radio">زن
+                                                   </label>
+                                               </div>
+                                               <div class="form-group">
+                                                <label for="field-password-register" class="custom-label">کلمه عبور</label><br>
+                                                <input type="pasword" name="password" id="field-password-register" class="custom-input"
+                                                 maxlength="8" placeholder="رمز را با حروف لاتین وارد نمایید" required>
+
+                                                 <div class="form-group">
+                                                    <label for="field-repeat-password-register" class="custom-label">تکرار کلمه عبور</label><br>
+                                                    <input type="pasword" name="repeat-password" id="field-repeat-password-register" class="custom-input"
+                                                     maxlength="8" placeholder="تکرار کلمه عبور" required>
+
+                                                     <div class="form-group">
+                                                         <label class="custom-radio-option">
+                                                              <input type="checkbox" name="accept-rule" class="custom-radio"> قوانین وب سایت را مطالعه و قبول دارم
+                                                         </label>
+
+                                                     </div>
+
+
+                            
+                            <input type="submit" class="custom-button"  value="ثبت نام" required >
+                
+                            
+                
+                            </div>
+                
+            </fieldset>
+          
+
+        </form>
+    </div>
+<div id="contact-us">
+    <form method="get">
+        <fieldset>
+            <legend>
+                فرم تماس با ما
+            </legend>
+
+            <div class="form-group">
+                <label for="field-fullname" class="custom-label" >
+نام و نام خانوادگی
+                </label>
+                <input type="text" name="fullname" id="field-fullname" class="custom-input"
+                maxlength="35" required placeholder="نام خود را با حروف فارسی تایپ کنید">
+            </div>
+
+            <div class="form-group">
+                <label for="field-phone" class="custom-label" >
+شماره تماس                </label>
+                <input type="number" name="phone" id="field-phone" class="custom-input"
+                maxlength="35" required placeholder="مثال : 09123845094">
+
+                <div class="form-group">
+                    <label for="field-email" class="custom-label" >
+    پست الکترونیک
+                    </label>
+                    <input type="email" name="mail" id="field-email" class="custom-input"
+                     required >
+
+                     <div class="form-group">
+                        <label for="field-message" class="custom-label" >
+پیام کاربر                        </label>
+                        <textarea  name="message" id="field-message" class="custom-input custom-textarea"
+                        rows="6" > </textarea>
+                        
+        
+                    </div>
+                    
+    
+                </div>
+                
+
+            </div>
+        </fieldset>
+
+    </form>
+
+</div>   
+</body>
+</html>

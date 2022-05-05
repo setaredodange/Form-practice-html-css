@@ -1,0 +1,77 @@
+body {
+	font-family: 'shabnam';
+	font-size: 14px;
+	line-height: 1.618;
+}
+
+#login , #register {
+	width: 350px;
+	margin: 30px auto;
+    
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.custom-label {
+	margin-bottom: 5px;
+	display: inline-block;
+} 
+
+.custom-input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 4px 5px;
+	font-family: 'shabnam';
+}
+
+.custom-button {
+	padding: 4px 15px;
+	box-sizing: border-box;
+	font-family: 'shabnam';
+    margin-bottom: 10px;
+    margin-top:10px;
+
+}
+
+.birthday-input {
+	width: 33.333%;
+	float: right;
+}
+
+.custom-radio-option {
+	margin-left: 10px;
+}
+
+.custom-radio {
+	margin-top: 0;
+	vertical-align: middle;
+}
+
+legend {
+	padding: 0 4px;
+	font-weight: bold;
+}
+
+fieldset {
+	margin: 0;
+	padding: 15px 15px 0 15px;
+	border: 2px solid blue;
+}
+
+.clearfix::after {
+	display: table;
+	clear: both;
+	content: '';
+}
+
+#contact-us {
+	width: 400px;
+	margin: 30px auto;
+}
+
+.custom-textarea {
+	resize: vertical;
+}
